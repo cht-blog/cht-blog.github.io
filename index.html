@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="keywords" content="cht,acwing,题解,编程,算法,c++,交流,分享,资源,OJ,个人博客"/>
+<meta charset="utf-8">
+<meta name="description" content="cht的个人网站">
+<base href="https://acw-cht.github.io/" target="_blank">
+<link rel="shortcut icon" href="https://cdn.acwing.com/media/user/profile/photo/8041_lg_4bbe6ae0e0.gif">
+<meta name="author" content="acw-cht">
+<title>cht的个人网站</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+ 
+/* 头部标题 */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+ 
+.header h1 {
+  font-size: 50px;
+}
+ 
+/* 导航条 */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+ 
+/* 导航条链接 */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.linkget {
+	text-decoration: none;
+}	
+/* 链接颜色修改 */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+ 
+/* 创建两列 */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.middle { 
+	margin:0 auto; 
+	width:50%;
+} 
+	
+/* 右侧栏 */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+ 
+/* 图像部分 */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+ 
+/* 文章卡片效果 */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+ 
+/* 列后面清除浮动 */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* 底部 */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+ 
+/* 响应式布局 - 屏幕尺寸小于 800px 时，两列布局改为上下布局 */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+ 
+/* 响应式布局 -屏幕尺寸小于 400px 时，导航等布局改为上下布局 */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+	
+<body>
+<div class="header">
+	<h1>cht的个人网站</h1>
+  	<p>欢迎鉴临</p>
+</div>
+
+<div class="topnav">
+	<a href="https://acw-cht.github.io/">主页</a>
+	<a href="https://acw-cht.github.io/anser/">题解</a>
+  	<a href="https://acw-cht.github.io/blog/">分享</a>
+  	<a href="https://acw-cht.github.io/things/">资源</a>
+	<a href="https://acw-cht.github.io/set/">设置</a>
+	<a href="https://acw-cht.github.io/app/">应用</a>
+	<a href="https://acw-cht.github.io/feedback/">反馈</a>
+	<a href="https://acw-cht.github.io/declare/" style="float:right">关于</a>
+</div>
+
+<div class="card">
+	<div class="middle">
+	    <h1>本站公告以及更新</h1>
+	</div>
+</div>
+<div class="row">
+  <div class="leftcolumn">
+	 <div class="card">
+      <h2>开始更新v3.0</h2>
+      <h5>2021 年 8 月 10日</h5>
+    </div>
+	 <div class="card">
+      <h2>v2.2版本上线</h2>
+      <h5>2020 年 8 月 12日</h5>
+      <div class="fakeimg" style="height:200px;">
+	  		<img border="0" src="https://cdn.acwing.com/media/article/image/2020/08/12/8041_071bbf06dc-批注-2020-08-12-115027.png" alt="Pulpit rock" width="435" height="160">
+		</div>
+      <p>更新了关于</p>
+      <p>在里面可以查看一些关于本网站的东西。</p>
+	  <p>还把所有界面的链接都定了下来，但很多都没写，所以进去会404……</p>
+    </div>
+	<div class="card">
+      <h2>v2.1.1版本上线</h2>
+      <h5>2020 年 8 月 12日</h5>
+      <p>小改动，优化了热门文章的链接。</p>
+	  <p>优化了界面。</p>
+    </div>
+	<div class="card">
+      <h2>v2.1版本上线</h2>
+      <h5>2020 年 8 月 12日</h5>
+      <div class="fakeimg" style="height:200px;">
+           <img border="0" src="https://cdn.acwing.com/media/article/image/2020/08/12/8041_a684a1ecdc-批注-2020-08-12-093912.png" alt="Pulpit rock" width="435" height="160">
+      </div>
+      <p>添加了邮件反馈功能，目前字数限制50字</p>
+      <p>可通过导航条的方式进入。</p>
+	  <p>还改进了显示版本的方式，改完逆序。</p>
+    </div>
+	<div class="card">
+      <h2>v2.0版本上线</h2>
+      <h5>2020 年 8 月 11日</h5>
+      <div class="fakeimg" style="height:200px;">
+		  <img border="0" src="https://cdn.acwing.com/media/article/image/2020/08/11/8041_c9b47ca6db-批注-2020-08-11-213703.png" alt="Pulpit rock" width="435" height="160">
+		</div>
+      <p>使用了菜鸟教程的模板，首页已经更新完毕，接下来会开始写关于和反馈功能！</p>
+	  <p>热门文章暂为链接的方式呈现。</p>
+    </div>
+	<div class="card">
+      <h2>v1.0版本上线</h2>
+      <h5>2020 年 8 月 10日</h5>
+      <div class="fakeimg" style="height:200px;">
+	  		<img border="0" src="https://cdn.acwing.com/media/article/image/2020/08/11/8041_d9527a78db-%E6%89%B9%E6%B3%A8-2020-08-11-210133.png" alt="Pulpit rock" width="435" height="160">
+		</div>
+      <p>最开始的版本</p>
+      <p>简单的更新了一下界面，同时学习了HTML和CSS的语法，有了现在这个网站。</p>
+	  <p>感觉跟30年前的一样，很垃圾，打算当晚就改进一下，明天发布。</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h3>热门文章</h3>
+      <div class="topnav"><a href="https://www.acwing.com/blog/content/3356/">因倍质合问题</a></div>
+      <div class="topnav"><a href="https://www.acwing.com/blog/content/2574/">cht原创分享小集合</a></div>
+      <div class="topnav"><a href="https://www.acwing.com/blog/content/3122/">c++STL详解</a></div>
+    </div>
+    <div class="card">
+      <h3>希望你关注我的动态</h3>
+      <p>我会经常发布一下分享和题解，请及时关注！！</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+	<h2> 相关链接: </h2>
+	<a href="https://www.acwing.com/">acwing</a>
+	<a href="https://www.acwing.com/user/myspace/index/8041/">acwing个人主页</a>
+
+<div class="footer">
+  	<h2>版权归@acw-cht所有</h2>
+</div>
+	
+</body>
+</html>
